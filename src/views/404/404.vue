@@ -1,0 +1,36 @@
+<template>
+  <div>
+    <div class="box">
+    <img src="../../assets/01b2c15bee3972a801209252698d55.png@1280w_1l_2o_100sh.png" alt="">
+  </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: '',
+  props:{},
+  data () {
+    return {
+    }
+  },
+  components: {},
+  methods: {},
+  mounted() {},
+  computed: {},
+  watch: {}
+}
+</script>
+
+<style lang='scss' scoped>
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: 50%;
+    height: 50%;
+    padding-top: 100px;
+  }
+}
+</style>
